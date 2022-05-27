@@ -1,0 +1,25 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.contacts {
+  background-color: rgba(255, 245, 246, 1);
+}
+.contacts__item {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px 32px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  & + & {
+    margin-top: 20px;
+  }
+}
