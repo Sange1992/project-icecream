@@ -12,14 +12,90 @@
 }
 
 .contacts {
-  background-color: rgba(255, 245, 246, 1);
-}
-.contacts__item {
-  background-color: rgba(255, 255, 255, 1);
-  padding: 40px 32px;
-  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-  border-radius: 24px;
-  & + & {
-    margin-top: 20px;
+  background-image: linear-gradient(to top, #fff5f6 73%, #ffffff 73%);
+  padding-top: 20px;
+  &__item {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px 32px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    & + & {
+      margin-top: 20px;
+    }
+  }
+  &__cafe-type {
+    width: 80px;
+    height: 16px;
+    background-color: rgba(240, 209, 165, 1);
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 20px;
+  }
+  &__ft-type {
+    width: 130px;
+    height: 16px;
+    background-color: rgba(194, 226, 151, 1);
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 20px;
+  }
+  &__city {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+  &__city-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #907e82;
+  }
+  &__open-days {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    color: #000000;
+  }
+  &__open-hours {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    color: #ffa5ba;
+  }
+  &__open-hours + &__open-days {
+    margin-top: 8px;
+  }
+  &__tel-mail {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #907e82;
+  }
+  &__item-list-top {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  &__item-list-mid {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  &__item-list-bot {
+    padding-top: 24px;
   }
 }
