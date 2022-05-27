@@ -1,0 +1,55 @@
+/* цвет фона 1 #FFFFFF */
+/* цвет фона 2 #FFB8CA */
+/* цвет фона 3 #FFF5F6*/
+/* цвет фона меню-бургера #E17992 */
+/* цвет фона продукта 1 #FFB8CA */
+/* цвет фона продукта 2 #F0D1A5 */
+/* цвет фона продукта 3 #C2E297 */
+
+/* цвет заголовка 1 #D41443 */
+/* цвет заголовка 2 #FFA5BA */
+/* цвет заголовка 3 #FFFFFF */
+
+/* основной цвет текста #FFFFFF */
+/* цвет акцентного тектста #D41443 */
+/* цвет абзацов 1 #000000 */
+/* цвет абзацов 2 #907E82 */
+
+/* цвет кнопки 1 #D41342 */
+/* цвет кнопки 2 #FFFFFF */
+/* цвет ховера кнопки 1 #C7133E */
+/* цвет ховера кнопки 2 #ECEBEB */
+
+/* timing-duration и timing-function - для ховера и фокуса */ 
+
+/* Переменные */
+
+
+:root {
+  --bg-color1: #ffb8ca;
+  --bg-color2: #ffffff;
+  --bg-color3: #fff5f6;
+  --bg-color-burger: #e17992;
+
+  --bg-product1: #ffb8ca;
+  --bg-product2: #f0d1a5;
+  --bg-product3: #c2e297;
+
+  --title-font-color1: #d41443;
+  --title-font-color2: #ffa5ba;
+  --title-font-color3: #ffffff;
+
+  --main-font-color: #ffffff;
+  --accent-font-color: #d41443;
+
+  --paragraph-color1: #000000;
+  --paragraph-color2: #907e82;
+
+  --btn-color1: #d41342;
+  --btn-color2: #ffffff;
+  --btn-hover-color1: #c7133e;
+  --btn-hover-color2: #ecebeb;
+
+  --timing-duration: 300ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
