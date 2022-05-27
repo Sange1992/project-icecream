@@ -4,7 +4,16 @@
 @import './utils/variables';
 // -------------------------components
 @import './components/container';
+@import './components/mob-menu';
+@import './components/modal-menu';
 // -------------------------layou
 @import './layout/header';
+@import './layout/hero';
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
 @import './layout/reviews';
+@import './layout/contacts';
+@import './layout/footer';
 
