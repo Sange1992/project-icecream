@@ -177,6 +177,7 @@ body {
   padding-bottom: 20px;
   background-color: var(--bg-color-burger);
   z-index: 9998;
+  overflow: auto;
 }
 
 .menu-btn-close {
@@ -187,32 +188,47 @@ body {
   background-color: transparent;
 }
 
-.menu-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mob-menu__btn {
   min-width: 209px;
-  height: 44px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 33px;
-  padding: 0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.31;
-  border-radius: 22px;
-  color: var(--btn-color1);
-  background-color: var(--btn-color2);
-  transition: background-color var(--timing-duration) var(--timing-function);
-}
-.menu-btn:hover, .menu-btn:focus {
-  background-color: var(--btn-hover-color2);
+  margin-bottom: 32px;
 }
 
-.menu-btn__icon {
-  margin-left: 28px;
-}
+/* .menu-btn__icon {
+    margin-left: 28px;
+} */
+/* .menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    min-width: 209px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 33px;
+    padding: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+
+    border-radius: 22px;
+
+    color: var(--btn-color1);
+    background-color: var(--btn-color2); 
+
+    transition: background-color var(--timing-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        background-color: var(--btn-hover-color2); 
+    }
+} */
+/* .menu-btn__icon {
+    margin-left: 28px;
+} */
 .mob-menu-list__item {
   position: relative;
   /* height: 42px;
@@ -252,8 +268,28 @@ body {
 .mob-menu-list__link:hover, .mob-menu-list__link:focus {
   color: var(--accent-font-color);
 }
-.mob-menu-list__link--current {
-  color: var(--accent-font-color);
+
+.primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  border-radius: 22px;
+  color: var(--btn-color1);
+  background-color: var(--btn-color2);
+  transition: background-color var(--timing-duration) var(--timing-function);
+}
+.primary-btn:hover, .primary-btn:focus {
+  background-color: var(--btn-hover-color2);
+}
+
+.primary-btn__icon {
+  margin-left: 13px;
 }
 
 .reviews {

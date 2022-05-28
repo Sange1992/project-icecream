@@ -10,6 +10,8 @@
     background-color: var(--bg-color-burger);
 
     z-index: 9998;
+    
+    overflow: auto;
 }
 
 .menu-btn-close {
@@ -19,10 +21,22 @@
     margin-bottom: 26px;
     padding: 0;
 
-    background-color: transparent;    
+    background-color: transparent;      
+    
+}
+.mob-menu__btn {       
+    min-width: 209px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
 }
 
-.menu-btn {
+/* .menu-btn__icon {
+    margin-left: 28px;
+} */
+
+
+/* .menu-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,11 +63,11 @@
     &:focus {
         background-color: var(--btn-hover-color2); 
     }
-}
+} */
 
-.menu-btn__icon {
+/* .menu-btn__icon {
     margin-left: 28px;
-}
+} */
 
 .mob-menu-list__item {
     position: relative;
@@ -98,11 +112,7 @@
     &:hover,
     &:focus {
         color: var(--accent-font-color);
-    }
-    
-    &--current{
-        color: var(--accent-font-color);
-    }
+    }   
 }
 
 
