@@ -1,11 +1,11 @@
 .hero{
-    display: flex; 
+    /* display: flex;  */
    
     background-color: #FFB8CA;
     @media screen and (max-width:767px){
-        min-width: 320px;
+        /* min-width: 320px;
         min-height: 444px;
-        justify-content: center;
+        justify-content: center; */
     }
     @media screen and (min-width:768px){
         min-width: 468px;
@@ -20,8 +20,8 @@ body{
 }
 .hero-blok{
     position: relative;    
-    min-width: 320px;
-    min-height: 444px;
+    width: 320px;
+    height: 444px;
     background-size: cover;
  
     
@@ -117,7 +117,8 @@ body{
     color: #FFFFFF;
 }
 .hero__title{
-    margin: 0;
+    /* margin: 0; */
+    width: 218px;
     
 }
 
