@@ -100,6 +100,15 @@ body{
     }
 
 }
+.box:nth-child(5){
+    z-index: 1;
+    @media screen and (min-width:768px){
+        z-index: 3;
+        bottom: 0px;
+        right: 546px;
+    }
+    
+}
 /* .hero-img__picture{
     
 
