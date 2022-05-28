@@ -1,0 +1,184 @@
+.hero{
+    display: flex; 
+   
+    background-color: #FFB8CA;
+    @media screen and (max-width:767px){
+        min-width: 320px;
+        min-height: 444px;
+        justify-content: center;
+    }
+    @media screen and (min-width:768px){
+        min-width: 468px;
+        min-height: 416px;
+
+    }
+    
+    
+}
+body{
+    margin: 0;
+}
+.hero-blok{
+    position: relative;    
+    min-width: 320px;
+    min-height: 444px;
+    background-size: cover;
+ 
+    
+    
+    
+    
+}
+.box{
+    position: absolute;
+    
+}
+.box:nth-child(1){
+    z-index: 4;
+    
+    @media screen and (max-width:767px){
+        top: 136px;
+        left: 20px;
+
+    }
+    @media screen and (min-width:768px){
+        top: 20px;
+        left: 32px;
+
+    }
+
+}
+.box:nth-child(3){
+    z-index: 3;
+    
+    @media screen and (max-width:767px){
+        top: 34px;
+        left: 117px;
+        
+    }
+    @media screen and (min-width:768px){
+        bottom: 0;
+        left: 322px;
+    }
+}
+
+.box:nth-child(2){
+    z-index: 2;
+    
+    @media screen and (max-width:767px){
+        top: 25px;
+        left: 36px;
+
+    }
+    @media screen and (min-width:768px){
+        bottom: 40px;
+        left: 248px;
+    }
+}
+.box:nth-child(4){
+    z-index:-1;
+    @media screen and (min-width:768px){
+        z-index: 4;
+        bottom: 16px;
+        left: 32px;
+    }
+
+}
+/* .hero-img__picture{
+    
+
+    z-index: 2;
+    
+}
+.ero-img__fone{
+    position: absolute;
+    z-index: 1;
+} */
+.milk{
+    display: inline-flex;
+    gap: 1px;
+    align-items: center;
+}
+
+.milk-title-box{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.milk-title{
+    width: 114px;
+    margin: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.5;             
+
+    color: #FFFFFF;
+}
+.hero__title{
+    margin: 0;
+    
+}
+
+.wite-text{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    @media screen and (min-width:768px){
+        font-size: 22px;
+        line-height: 1.15;
+    }
+}
+.red-text{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 0.96;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #D41443;
+    @media screen and (min-width:768px){
+        font-size: 34px;
+        line-height: 0.9;
+    }
+}
+
+.hero__button{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25; 
+ 
+}
+.red-btn{
+    width: 62.4px;
+    height: 24px;
+    background: #D41443;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.wite-btn{
+    width: 82.8px;
+    height: 24px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    color: rgba(212, 20, 67, 1);
+    border: none;
+}
+
