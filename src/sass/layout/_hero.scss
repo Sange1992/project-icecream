@@ -109,16 +109,7 @@ body{
     }
     
 }
-/* .hero-img__picture{
-    
 
-    z-index: 2;
-    
-}
-.ero-img__fone{
-    position: absolute;
-    z-index: 1;
-} */
 .milk{
     display: inline-flex;
     gap: 1px;
@@ -217,3 +208,21 @@ body{
     border: none;
 }
 
+.number-numbers{
+    font-family: 'Titan One';    
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #D41443;
+}
+.number-title{
+    font-family: 'DM Sans';    
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;  
+    
+    color: #FFFFFF;
+}
