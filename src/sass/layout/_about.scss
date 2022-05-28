@@ -1,0 +1,86 @@
+.section-about {
+  padding: 40px 0;
+  background-color: var(--bg-color3);
+}
+
+.section-about__label {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--title-font-color2);
+}
+
+.section-about__title {
+  display: inline-block;
+  max-width: 200px;
+  height: 76px;
+  margin-top: 15px;
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--title-font-color1);
+}
+
+.section-about__img {
+  margin-top: 15px;
+}
+
+.section-about__text {
+  width: 220px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+}
+
+.section-about__text--first {
+  color: var(--paragraph-color1);
+  margin: 40px 0;
+}
+
+.section-about__text--second {
+  color: var(--paragraph-color2);
+}
+
+.about-btn-read-more {
+  margin-top: 20px;
+  padding: 0 37px;
+  background-color: var(--btn-color2);
+  border-radius: 22px;
+  width: 176px;
+  height: 44px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--accent-font-color);
+
+  transition: background-color var(--timing-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hover-color2);
+  }
+}
+
+.about-btn-read-more__icon {
+  margin-left: 13px;
+  border: 2px solid var(--accent-font-color);
+}
