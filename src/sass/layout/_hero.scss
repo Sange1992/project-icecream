@@ -28,7 +28,7 @@ body{
 .hero-blok{
     position: relative;    
     width: 320px;
-    height: 444px;
+    min-height: 444px;
     background-size: cover;
     background-color: #FFB8CA;
     @media screen and (min-width:768px){
@@ -81,9 +81,9 @@ body{
     z-index: 2;
     
     @media screen and (max-width:767px){
-        
+        left: 36px;
         bottom: 75px;
-        right: 0px;
+        
 
     }
     @media screen and (min-width:768px){
@@ -101,7 +101,7 @@ body{
 
 }
 .box:nth-child(5){
-    z-index: 1;
+    z-index: -1;
     @media screen and (min-width:768px){
         z-index: 3;
         bottom: 0px;
@@ -110,7 +110,7 @@ body{
     
 }
 .box:nth-child(6){
-    z-index: 1;
+    z-index: -1;
     @media screen and (min-width:768px){
         z-index: 3;
         bottom: 221px;
@@ -236,6 +236,6 @@ body{
     
     color: #FFFFFF;
 }
-.numbers-blok{
+.umber-title{
     text-decoration: none;
 }
