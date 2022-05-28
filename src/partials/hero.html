@@ -99,11 +99,27 @@
             </span>
             
         </div>
-        <div class="hero-img">
-            <img class="hero-img__picture" 
-                src="./imajas/girl_tab_1x.png" 
+        <div class="box hero-img">
+            <picture>                
+                <source
+                srcset="
+                ./images/hero-tasty-304.png  1x,
+                ./images/hero-tasty-608.png  2x"
+                media="(min-width: 1200px)" 
+                />
+                <source
+                srcset="
+                ./images/hero-tasty-190.png  1x,
+                ./images/hero-tasty-380.png  2x"                
+                media="(min-width: 768px)"
+                
+                />                
+                <img class="hero-img__picture" 
+                src="./images/hero-tasty-190.png" 
                 width="190px"
-                height="150px">
+                height="150px">             
+            </picture> 
+            
         </div>
         <!-- <div class="numbers">
             <li class="numbers-blok">
