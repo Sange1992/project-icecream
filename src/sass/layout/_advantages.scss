@@ -1,0 +1,101 @@
+.advantages {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: var(--bg-color3);
+
+    // @include tablet {
+    //     padding-top: 80px;
+    // }
+
+    // @include desktop {
+    //     padding-top: 120px;
+    //     padding-bottom: 120px;
+    // }
+}
+
+// .advantages-list {
+//     @include tablet {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//     }
+// }
+
+.advantages-list__item+.advantages-list__item {
+    @media screen and (max-width: 767px) {
+        margin-top: 32px;
+    }
+}
+
+.advantages-list__item {
+    max-width: 230px;
+
+    // @include tablet {
+    //     max-width: 180px;
+    // }
+
+    // @include desktop {
+    //     max-width: 288px;
+    // }
+
+    &::before {
+        content: '';
+        display: block;
+        margin-bottom: 16px;
+    }
+}
+
+.advantages-list__item:first-child::before {
+    background-image: url(../images/advantages1.png);
+    width: 33px;
+    height: 50px;
+}
+
+.advantages-list__item:nth-child(2)::before {
+    background-image: url(../images/advantages2.png);
+    width: 50px;
+    height: 50px;
+}
+
+.advantages-list__item:last-child::before {
+    background-image: url(../images/advantages3.png);
+    width: 44px;
+    height: 50px;
+}
+
+.advantages-list__number {
+    display: block;
+    margin-bottom: 13px;
+
+    font-family: Titan One, sans-serif;
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--accent-font-color);
+
+    // @include tablet {
+    //     font-size: 48px;
+    //     text-transform: none;
+    // }
+
+    // @include desktop {
+    //     font-size: 58px;
+    // }
+}
+
+.advantages-list__text {
+    font-weight: 700;
+    line-height: 1.67;
+
+    // @include tablet {
+    //     font-size: 14px;
+    //     line-height: 1.71;
+    // }
+
+    // @include desktop {
+    //     font-size: 16px;
+    //     line-height: 1.75;
+    // }
+}
